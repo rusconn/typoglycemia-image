@@ -1,0 +1,26 @@
+{
+  "extends": "ts-node/node16/tsconfig.json",
+  "ts-node": {
+    "require": ["tsconfig-paths/register"],
+    "transpileOnly": true,
+    "files": true
+  },
+  "compilerOptions": {
+    "outDir": "build",
+    "incremental": true,
+    "target": "ESNext",
+    "lib": ["esnext"],
+    "module": "CommonJS",
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "importsNotUsedAsValues": "error",
+    "skipLibCheck": true,
+    "experimentalDecorators": true
+  }
+}

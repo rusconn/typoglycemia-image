@@ -1,0 +1,1 @@
+The reason for this is surely that identifying content by parallel processing speeds up recognition. We only need the first and last two leters to spot changes in meaning.
