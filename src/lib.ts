@@ -1,6 +1,6 @@
-import shuffle from "lodash/shuffle";
-import takeWhile from "lodash/takeWhile";
-import takeRightWhile from "lodash/takeRightWhile";
+import shuffle from "lodash.shuffle";
+import takeWhile from "lodash.takewhile";
+import takeRightWhile from "lodash.takerightwhile";
 
 export const typoglycemia = (sentenses: string) => {
   const wordsArray = sentenses.split(".").map(s => s.split(" "));
