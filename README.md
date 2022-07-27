@@ -14,6 +14,14 @@
 
 入力した文章を Typoglycemia にして出力する。
 
+## Docker イメージのビルドコマンド
+
+プロジェクトルートで
+
+```sh
+docker build -t rusconn/typoglycemia:1.0.0 -f dockerfiles/prod/Dockerfile .
+```
+
 ## 実行イメージ
 
 ```sh
